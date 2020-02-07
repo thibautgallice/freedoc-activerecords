@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Install
 
-Things you may want to cover:
+`git clone git@github.com:thibautgallice/airbn-dogs.git`
 
-* Ruby version
+`cd freedoc-activerecords`
 
-* System dependencies
+`bundle install`
 
-* Configuration
+`rails db:reset`
 
-* Database creation
+`rails db:migrate`
 
-* Database initialization
+`rails db:seed`
 
-* How to run the test suite
+`rails c`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Run
 
-* ...
+`tp Doctor.all`
+
+`tp Patient.all`
+
+`tp City.all`
+
+`tp Appointment.all`
+
